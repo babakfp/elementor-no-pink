@@ -57,3 +57,8 @@
 #page-editor-v4-opt-in .MuiLink-underlineHover {
     color: var(--e-a-btn-bg-info) !important;
 }
+
+/* elementor widget in wp-admin */
+.e-dashboard-overview .e-overview__ai a, .e-dashboard-overview .e-overview__go-pro a {
+    color: var(--e-a-btn-bg-info) !important;
+}

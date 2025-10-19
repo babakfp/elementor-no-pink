@@ -54,3 +54,6 @@
 #page-editor-v4-opt-in .MuiButton-containedPrimary:hover {
     background-color: var(--e-a-btn-bg-primary-hover) !important;
 }
+#page-editor-v4-opt-in .MuiLink-underlineHover {
+    color: var(--e-a-btn-bg-info) !important;
+}

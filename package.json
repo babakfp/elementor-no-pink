@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "dev": "sass static/scss/wp-admin/index.scss:static/css/wp-admin.css static/scss/el-editor/index.scss:static/css/el-editor.css static/scss/el-preview/index.scss:static/css/el-preview.css --watch --style=compressed --no-source-map"
+    }
+}

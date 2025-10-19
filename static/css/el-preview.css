@@ -1,15 +1,28 @@
 :root {
-    --e-a-btn-bg-primary: var(--wp-admin-theme-color, #007cba) !important;
-    --e-a-btn-bg-primary-hover: var(
-        --wp-admin-theme-color-darker-10,
-        #006da3
-    ) !important;
-    --e-a-btn-bg-primary-active: var(
-        --wp-admin-theme-color-darker-20,
-        #005885
-    ) !important;
-    --e-a-btn-bg-accent: var(--e-a-btn-bg-primary) !important;
-    --e-a-btn-bg-accent-hover: var(--e-a-btn-bg-primary-hover) !important;
-    --e-a-btn-bg-accent-active: var(--e-a-btn-bg-primary-active) !important;
-    --e-a-btn-color: white;
+    --e-a-color-accent: var(--e-a-color-info) !important;
+    --e-a-color-accent-promotion: var(--e-a-color-info) !important;
+}
+:root {
+    --e-a-color-primary: hsl(from var(--e-a-color-info) h s calc(l + 32)) !important;
+    --e-a-color-primary-bold: var(--e-a-color-info) !important;
+
+    --e-a-bg-primary: var(--e-a-bg-info) !important;
+
+    --e-a-btn-bg-primary: hsl(from var(--e-a-btn-bg-info) h s calc(l + 32)) !important;
+    --e-a-btn-bg-primary-hover: hsl(from var(--e-a-btn-bg-info-hover) h s calc(l + 32)) !important;
+    --e-a-btn-bg-primary-active: hsl(from var(--e-a-btn-bg-info-active) h s calc(l + 32)) !important;
+
+    --e-a-btn-bg-accent: var(--e-a-btn-bg-info) !important;
+    --e-a-btn-bg-accent-hover: var(--e-a-btn-bg-info-hover) !important;
+    --e-a-btn-bg-accent-active: var(--e-a-btn-bg-info-active) !important;
+}
+
+:root {
+    --e-p-draggable-color: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 32)) !important;
+    --e-p-border-section: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 36)) !important;
+    --e-p-border-section-hover: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 32)) !important;
+    --e-p-border-con: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 36)) !important;
+    --e-p-border-con-hover: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 32)) !important;
+    --e-p-border-widget: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 36)) !important;
+    --e-p-border-widget-hover: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 32)) !important;
 }

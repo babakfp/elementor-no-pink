@@ -46,3 +46,11 @@
 .elementor-plugins-gopro:focus, .elementor-plugins-gopro:hover {
     color: var(--e-context-info-color-dark) !important;
 }
+
+#page-editor-v4-opt-in .MuiButton-containedPrimary {
+    border: none !important;
+    background-color: var(--e-a-btn-bg-primary) !important;
+}
+#page-editor-v4-opt-in .MuiButton-containedPrimary:hover {
+    background-color: var(--e-a-btn-bg-primary-hover) !important;
+}

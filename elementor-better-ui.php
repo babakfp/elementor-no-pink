@@ -6,7 +6,7 @@
  * Description:                       Enhances Elementor UI design and user experience.
  * Author:                            babakfp
  * Author URI:                        https://babakfp.ir
- * Plugin URI:                        https://www.example.com/my-plugin
+ * Plugin URI:                        https://babakfp.gumroad.com/l/guobf
  * Tested up to:                      6.8
  * Requires at least:                 5.0
  * Requires PHP:                      7.4

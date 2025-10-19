@@ -28,6 +28,7 @@ if ( ! class_exists( 'Elementor_No_Pink' ) ) {
 
 		public function __construct() {
             add_action( 'admin_enqueue_scripts', fn() => wp_enqueue_style( self::$text_domain . '-wp-admin', self::url() . 'static/css/wp-admin.css', [], self::$version ), 11 );
+            add_action( 'elementor/app/init', fn() => wp_enqueue_style( self::$text_domain . '-wp-admin', self::url() . 'static/css/wp-admin.css', [], self::$version ), 11 );
             add_action( 'elementor/editor/after_enqueue_styles', fn() => wp_enqueue_style ( self::$text_domain . '-elementor-editor', self::url() . 'static/css/elementor-editor.css', [], self::$version ) );
             add_action( 'elementor/preview/enqueue_styles', fn() => wp_enqueue_style ( self::$text_domain . '-elementor-preview', self::url() . 'static/css/elementor-preview.css', [], self::$version ) );
 		}

@@ -62,3 +62,23 @@
 .e-dashboard-overview .e-overview__ai a, .e-dashboard-overview .e-overview__go-pro a {
     color: var(--e-a-btn-bg-info) !important;
 }
+
+/* elementor/app/init */
+/* wp-admin/admin.php?page=elementor-app#onboarding */
+.e-onboarding__progress-bar-item--active {
+    color: var(--e-a-btn-bg-info) !important;
+}
+.e-onboarding__progress-bar-item--active .e-onboarding__progress-bar-item-icon, .e-onboarding__progress-bar-item--completed .e-onboarding__progress-bar-item-icon {
+    background-color: var(--e-a-btn-bg-info) !important;
+    border-color: var(--e-a-btn-bg-info) !important;
+}
+.e-onboarding__header .eps-button__go-pro-btn {
+    background-color: var(--e-a-btn-bg-info) !important;
+}
+.e-onboarding__go-pro-cta {
+    color: var(--e-a-btn-bg-info) !important;
+    border-color: var(--e-a-btn-bg-info) !important;
+}
+.e-onboarding__go-pro-title {
+    color: var(--e-a-btn-bg-info) !important;
+}

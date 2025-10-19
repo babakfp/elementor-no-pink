@@ -1,4 +1,10 @@
-:root {
+/* #nprogress .bar {
+    background: var(--e-context-info-color) !important;
+}
+#nprogress .peg {
+    box-shadow: 0 0 10px var(--e-context-info-color), 0 0 5px var(--e-context-info-color) !important;
+} */
+/* :root {
     --e-a-btn-bg-primary: var(--wp-admin-theme-color, #007cba) !important;
     --e-a-btn-bg-primary-hover: var(
         --wp-admin-theme-color-darker-10,
@@ -146,4 +152,4 @@ input,
 select,
 textarea {
     background: var(--e-a-bg-default);
-}
+} */

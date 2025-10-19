@@ -13,8 +13,8 @@
     --e-context-cta-tint-1: var(--e-context-info-tint-1) !important;
 }
 :root {
-    --e-a-color-accent: var(--e-context-info-color) !important;
-    --e-a-color-accent-promotion: var(--e-context-info-color) !important;
+    --e-a-color-accent: var(--e-a-color-info) !important;
+    --e-a-color-accent-promotion: var(--e-a-color-info) !important;
 }
 :root {
     --e-a-color-primary: hsl(from var(--e-a-color-info) h s calc(l + 32)) !important;

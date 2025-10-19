@@ -18,11 +18,14 @@
 }
 
 :root {
-    --e-p-draggable-color: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 32)) !important;
-    --e-p-border-section: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 36)) !important;
-    --e-p-border-section-hover: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 32)) !important;
-    --e-p-border-con: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 36)) !important;
-    --e-p-border-con-hover: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 32)) !important;
-    --e-p-border-widget: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 36)) !important;
-    --e-p-border-widget-hover: hsl(from var(--e-a-btn-bg-primary) h s calc(l + 32)) !important;
+    --e-p-draggable-color: var(--e-a-btn-bg-primary);
+
+    --e-p-border-section: var(--e-a-btn-bg-primary) !important;
+    --e-p-border-section-hover: var(--e-a-btn-bg-primary-hover);
+
+    --e-p-border-con: var(--e-a-btn-bg-primary) !important;
+    --e-p-border-con-hover: var(--e-a-btn-bg-primary-hover);
+    
+    --e-p-border-widget: var(--e-a-btn-bg-primary) !important;
+    --e-p-border-widget-hover: var(--e-a-btn-bg-primary-hover);
 }

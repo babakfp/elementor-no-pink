@@ -16,9 +16,18 @@
     --e-a-btn-bg-accent-hover: var(--e-a-btn-bg-info-hover) !important;
     --e-a-btn-bg-accent-active: var(--e-a-btn-bg-info-active) !important;
 }
+
 #nprogress .bar {
     background: var(--e-a-color-info) !important;
 }
 #nprogress .peg {
     box-shadow: 0 0 10px var(--e-a-color-info), 0 0 5px var(--e-a-color-info) !important;
+}
+
+#elementor-editor-wrapper-v2 .MuiButton-containedPrimary {
+    border: none !important;
+    background-color: var(--e-a-btn-bg-primary) !important;
+}
+#elementor-editor-wrapper-v2 .MuiButton-containedPrimary:hover {
+    background-color: var(--e-a-btn-bg-primary-hover) !important;
 }

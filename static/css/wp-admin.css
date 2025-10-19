@@ -1,7 +1,6 @@
 :root {
     --e-notice-context-color: var(--e-context-info-color) !important;
 }
-
 :root {
     --e-context-primary-color: var(--e-context-info-color) !important;
     --e-context-primary-color-dark: var(--e-context-info-color-dark) !important;
@@ -13,12 +12,10 @@
     --e-context-cta-tint-4: var(--e-context-info-tint-4) !important;
     --e-context-cta-tint-1: var(--e-context-info-tint-1) !important;
 }
-
 :root {
     --e-a-color-accent: var(--e-context-info-color) !important;
     --e-a-color-accent-promotion: var(--e-context-info-color) !important;
 }
-
 :root {
     --e-a-color-primary: hsl(from var(--e-a-color-info) h s calc(l + 32)) !important;
     --e-a-color-primary-bold: var(--e-a-color-info) !important;

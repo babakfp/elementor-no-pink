@@ -4,9 +4,9 @@
  * Plugin Name:                       Elementor No Pink
  * Version:                           0.0.4
  * Description:                       Replaces Elementor’s pink accents with a clean blue color for a calmer, more professional look.
- * Author:                            babakfp
- * Author URI:                        https://babakfp.ir
- * Plugin URI:                        https://babakfp.gumroad.com/l/guobf
+ * Author:                            Babak Farkhoopak
+ * Author URI:                        https://babakfp.gumroad.com
+ * Plugin URI:                        https://babakfp.gumroad.com/l/elementor-no-pink
  * Tested up to:                      6.8
  * Requires at least:                 5.0
  * Requires PHP:                      7.4
